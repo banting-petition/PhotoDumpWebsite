@@ -3,11 +3,17 @@
 <html>
 <body> 
 <nav>
-<a href="index.html">
-<button>Home</button>
+<a href="1.html">
+    <button id="buttonselected">Truman</button>
+</a>
+    <a href="index.html">
+<button class="red-button">Home</button>
 </a>
 <a href="page2.html">
-    <button>Eurovision</button>
+    <button class="red-button">Eurovision</button>
+</a>
+<a href="page3.html">
+    <button class="red-button">Minecraft</button>
 </a>
 <h1>My dog, Truman</h1>
 
@@ -15,7 +21,7 @@
     <div class="wrapper">
         <div class="profile">
             
-            <img src="Screenshot 2025-09-30 at 12.42.16.png" alt="picture of the Truman">
+            <img src="Screenshot 2025-09-30 at 12.42.16.png" alt="picture of the Truman" class="image">
             
 
         </div>
@@ -23,10 +29,8 @@
     <audio controls autoplay> 
         <source src="Truman Sleeps (The Truman Show) - Philip Glass _ Piano Cover (but more epic) + Sheet Music.mp3">
     </audio>
-<p id="song1"> Song here </p>
 
 <a href="page2.html">
-    <button style="color:rgb(5, 5, 241);">Next</button>
 </a>
 </body>
 <style>
@@ -41,7 +45,7 @@
     body{
         position:absolute;
         margin:0; 
-        background-image: url(colorful-pastel-blurry-gradient-blue-green-white-frosted-glass-effect-abstract-background.webp)
+        
     }
     nav {
         background-color:rgb(28, 222, 218); 
@@ -52,6 +56,12 @@
     }
     nav button{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #buttonselected{
+        color:blue;
+    }
+    .red-button{
+        color:red;
     }
     
 </style>

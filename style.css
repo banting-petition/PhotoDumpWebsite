@@ -11,7 +11,7 @@ background-position:center;
 }
 
 #title { 
- color:rgb(137, 32, 32); 
+ color:rgb(255, 0, 0); 
  text-align: center;
 }
 #page-2-title {
@@ -42,11 +42,18 @@ title-2 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav {
-    background-color:rgb(28, 222, 218); 
+    background-color:rgb(14, 238, 230); 
     padding: 20px; 
     position: sticky; 
     top: 20; 
 }
 nav button{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonred {
+    color:red;
+}
+.buttonselected{
+    color:blue;
 }
