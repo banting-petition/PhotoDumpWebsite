@@ -1,0 +1,19 @@
+#title-second-line{
+    text-align: center;
+}
+.elements-center{
+    text-align: center;
+    font-family: Serif;
+    }
+.center{
+    display:grid;
+        place-items: center;
+        min-height:100vh;
+}
+input{
+    font-size: 12pt;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
