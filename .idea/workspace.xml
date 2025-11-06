@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e84034-b016-4f28-b966-4c42262c4a1c" name="Changes" comment="Changed to svelte kit and everthing">
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+    <list default="true" id="82e84034-b016-4f28-b966-4c42262c4a1c" name="Changes" comment="Changed to svelte kit and everthing and changed it">
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="main-page.svelt" />
+        <option value="+page.svelte" />
       </list>
     </option>
   </component>
@@ -39,7 +44,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -51,7 +56,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -59,6 +66,7 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/masonsweeney/WebstormProjects/TheEmberSun/.svelte-kit&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -93,7 +101,11 @@
       <option name="presentableId" value="Default" />
       <updated>1761783445136</updated>
       <workItem from="1761783446342" duration="4717000" />
-      <workItem from="1762039081638" duration="10833000" />
+      <workItem from="1762039081638" duration="11631000" />
+      <workItem from="1762224148076" duration="3186000" />
+      <workItem from="1762358266991" duration="4000" />
+      <workItem from="1762401965112" duration="6775000" />
+      <workItem from="1762409435067" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="commt">
       <option name="closed" value="true" />
@@ -119,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762132051487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed to svelte kit and everthing and changed it">
+      <option name="closed" value="true" />
+      <created>1762132368611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762132368611</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +149,7 @@
     <MESSAGE value="commt" />
     <MESSAGE value="Changed to svelte kit" />
     <MESSAGE value="Changed to svelte kit and everthing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to svelte kit and everthing" />
+    <MESSAGE value="Changed to svelte kit and everthing and changed it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to svelte kit and everthing and changed it" />
   </component>
 </project>

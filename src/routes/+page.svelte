@@ -1,5 +1,47 @@
-<h1 class="elements-center"> The Ember Sun </h1>
-<p id="title-second-line">Welcome to the ember sun!</p>
-<div class="center">
-    <input type="text" value="Test"/>
-</div>
+<script>
+
+    const users = [
+        {username:'Anastasia', password:'Kondratovich', name:'Anastasia'},
+        {username: 'Stephanie', password:'Endacott', name:'Stephanie'},
+        {username: 'Thyo', password: 'Kapi', name:'Thyo'},
+    ]; //usernames for the login system.
+    let username = $state('');
+    let password = $state('');
+    let error = $state(''); //setting error variables.
+
+    function handleLogin(e) {
+        e.preventDefault();
+        const user= users.find(u => u.username === username && u.password === password);
+        if (user) {
+           localStorage.setItem('currentUser', JSON.stringify(user))
+            localStorage.setItem ('user', username);
+            window.location.href = '/dashboard';
+
+        } else {
+            error= 'Invalid Username or Password. Please try again.';
+        }
+    }
+</script>
+<form onsubmit={handleLogin} class="login-form">
+    <h1>Log On</h1>
+    {#if error}
+        <p class="error">{error}</p>
+        {/if}
+    <label>
+        Nom D'utilisateur
+        <input type="text" bind:value={username} required placeholder="Anastasia"/>
+    </label>
+    <label>
+        Mot De Passe
+        <input type="password" bind:value={password} required placeholder="Mot De passe"/>
+    </label>
+    <button type="submit">Log On</button>
+    <details style="margin-top:1rem; font-size:0.8rem; color:#666">
+        <summary>Account</summary>
+        <ul style="text-align: left;">
+            <li>alice/123</li>
+            <li>alice/456</li>
+            <li>alice/789</li>
+        </ul>
+    </details>
+</form>
